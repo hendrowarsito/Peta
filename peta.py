@@ -18,7 +18,8 @@ drawing_mode = st.sidebar.selectbox(
 
 stroke_width = st.sidebar.slider("Tebal Gambar", 1, 10, 3)
 stroke_color = st.sidebar.color_picker("Warna Garis", "#ff0000")
-bg_color = st.sidebar.color_picker("Warna Isi Bentuk", "#FFA500")
+# bg_color = st.sidebar.color_picker("Warna Isi Bentuk", "#FFA500")
+bg_color = "#FFA500"
 
 # Canvas gambar
 canvas_result = st_canvas(
